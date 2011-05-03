@@ -43,7 +43,7 @@
 	* @class UID
 	* @static
 	**/
-	UID = function() {
+	function UID() {
 		throw "UID cannot be instantiated"; 
 	}
 	

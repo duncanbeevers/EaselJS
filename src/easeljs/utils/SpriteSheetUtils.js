@@ -47,7 +47,7 @@
 	* @class SpriteSheetUtils
 	* @static
 	**/
-	SpriteSheetUtils = function() {
+	function SpriteSheetUtils() {
 		throw "SpriteSheetUtils cannot be instantiated"; 
 	}
 

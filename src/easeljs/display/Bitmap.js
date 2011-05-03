@@ -43,7 +43,7 @@
 * @constructor
 * @param {Image | HTMLCanvasElement | HTMLVideoElement} image The Image, Canvas, or Video to render to the display list.
 **/
-Bitmap = function(image) {
+function Bitmap(image) {
   this.initialize(image);
 }
 var p = Bitmap.prototype = new DisplayObject();

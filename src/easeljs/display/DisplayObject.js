@@ -43,7 +43,7 @@
 * @class DisplayObject
 * @constructor
 **/
-DisplayObject = function() {
+function DisplayObject() {
   this.initialize();
 }
 var p = DisplayObject.prototype;

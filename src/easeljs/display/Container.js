@@ -48,7 +48,7 @@
 * @extends DisplayObject
 * @constructor
 **/
-Container = function() {
+function Container() {
   this.initialize();
 }
 var p = Container.prototype = new DisplayObject();

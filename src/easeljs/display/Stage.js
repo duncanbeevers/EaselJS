@@ -46,7 +46,7 @@
 * @param {Boolean} useTouch Whether the interaction model should leverage touch support. If touch support is enabled, Stage will listen for TouchEvents, and not
 * MouseEvents for its interaction model. Default value is false..
 **/
-Stage = function(canvas, useTouch) {
+function Stage(canvas, useTouch) {
   this.initialize(canvas, useTouch);
 }
 var p = Stage.prototype = new Container();

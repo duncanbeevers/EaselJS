@@ -50,7 +50,7 @@
 * @param {String} color Optional. The color to draw the text in. Any valid value for the CSS color attribute
 * is acceptable (ex. "#F00").
 **/
-Text = function(text, font, color) {
+function Text(text, font, color) {
   this.initialize(text, font, color);
 }
 

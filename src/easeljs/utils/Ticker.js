@@ -47,7 +47,7 @@
 	* @class Ticker
 	* @static
 	**/
-	Ticker = function() {
+	function Ticker() {
 		throw "Ticker cannot be instantiated.";
 	}
 	

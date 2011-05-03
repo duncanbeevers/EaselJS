@@ -83,7 +83,7 @@ Command.prototype.exec = function(scope) { this.f.apply(scope, this.params); }
 * "beginFill('#F00');drawRect(0, 0, 10, 10);"
 * @for Graphics
 **/
-Graphics = function(instructions) {
+function Graphics(instructions) {
 	this.initialize(instructions);
 }
 var p = Graphics.prototype;
